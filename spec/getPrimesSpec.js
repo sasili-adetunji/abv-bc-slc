@@ -7,7 +7,7 @@ Date: 15 May, 2017.
 */
 
 const expect = require('jasmine-expect');
-const getPrimes = require('getPrimes.js');
+const getPrimes = require('../src/getPrimes.js');
 
 describe("Prime number generator", function() {
     it("should return an array containing '2,3,5,7' for (9)", function(){
