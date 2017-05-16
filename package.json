@@ -1,0 +1,23 @@
+{
+  "name": "bootcamp",
+  "version": "1.0.0",
+  "description": "This is a function to generate prime Numbers of numbers from 0 to n\r The test cases are also provided",
+  "main": "getPrimes.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sasili-adetunji/abv-bc-slc.git"
+  },
+  "author": "Sasiliyu Adetunji",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sasili-adetunji/abv-bc-slc/issues"
+  },
+  "homepage": "https://github.com/sasili-adetunji/abv-bc-slc#readme",
+  "dependencies": {
+    "jasmine": "^2.6.0"
+  },
+  "devDependencies": {}
+}

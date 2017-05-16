@@ -1,0 +1,42 @@
+[33mcommit 5ea227c685ba388bde9a58ce9f2b4754a789f976[m
+Merge: 1a529a5 8b4463e
+Author: Sasiliyu Adetunji <shazily012@gmail.com>
+Date:   Mon May 15 22:44:04 2017 -0700
+
+    Merge branch 'master' of https://github.com/sasili-adetunji/abv-bc-slc
+
+[33mcommit 1a529a5db118b25ca86e39f7185d99629372bbcd[m
+Author: Sasiliyu Adetunji <shazily012@gmail.com>
+Date:   Mon May 15 22:40:53 2017 -0700
+
+    Final update on the fucntions and testcases
+
+[33mcommit 5e024185c485f9f103b74119b1eebf3f20d62097[m
+Author: Sasiliyu Adetunji <shazily012@gmail.com>
+Date:   Mon May 15 20:58:07 2017 -0700
+
+    Final updates on the functions and specs
+
+[33mcommit 1ecc69f7f93160121ba90d2e5296a04849058a08[m
+Author: Sasiliyu Adetunji <shazily012@gmail.com>
+Date:   Mon May 15 18:02:28 2017 -0700
+
+    Complete the functions of the test cases
+
+[33mcommit 19de832a7fd2a7efddc883b46e1a77790fd3aed2[m
+Author: Sasiliyu Adetunji <shazily012@gmail.com>
+Date:   Mon May 15 17:56:55 2017 -0700
+
+    adds the comment to getprimes.js file
+
+[33mcommit fd800e33905a4419ea9af1e6d49313656d9179aa[m
+Author: Sasiliyu Adetunji <shazily012@gmail.com>
+Date:   Mon May 15 17:52:58 2017 -0700
+
+    Functions to get primes and its specs
+
+[33mcommit 8b4463e459f3f6df9ed3ee0ed34fb90ba2aa0323[m
+Author: sasili-adetunji <shazily012@gmail.com>
+Date:   Mon May 15 13:05:39 2017 -0700
+
+    create a readme filr
