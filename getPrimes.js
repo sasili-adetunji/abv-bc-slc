@@ -13,7 +13,7 @@ function getPrimes(n) {
   // variable primeNumbers will hold the array of the generated prime Numbers
   let primeNumbers = [];
 
-  // to check for integers numbers as input
+  // to check for integer numbers as input
   if (Number.isInteger(n)) {
 
     // to check for negative numbers and return an error message
@@ -21,7 +21,7 @@ function getPrimes(n) {
       return "Error: Negative numbers not allowed";
 
   // to check for positive numbers greater than 0
-  else if (n > 0) {
+    else if (n > 0) {
 
     // a is initialized to 2 because prime number starts from 2
     // return array of number between 0 and n
@@ -35,8 +35,8 @@ function getPrimes(n) {
     return primeNumbers;
     } 
     // to check for 0 as an input and return an empty array
-  else if (n === 0) 
-    return emptyArray;
+    else if (n === 0) 
+      return emptyArray;
   } 
   // to check for other input types like strings
   else 

@@ -1,11 +1,10 @@
-/* Test functions to test prime numbers generation from 0 to n
+/* JAsmine Test functions to test prime numbers generation from 0 to n
 
 Programmed by Sasiliyu Adetunji
 Andela Abuja Bootcamp Self Leearning Clinic
 Date: 15 May, 2017.
 
 */
-
 
 describe("Prime number generator", function() {
     it("should return an array containing '2,3,5,7' for (9)", function(){
