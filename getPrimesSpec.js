@@ -8,8 +8,8 @@ Date: 15 May, 2017.
 
 
 describe("Prime number generator", function() {
-    it("should return an array containing '2,3,5,7' for (10)", function(){
-        expect(getPrimes(10)).toEqual([2,3,5,7]);
+    it("should return an array containing '2,3,5,7' for (9)", function(){
+        expect(getPrimes(9)).toEqual([2,3,5,7]);
     });
 
     it("should return an array containing '2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47' for (50)", function(){
@@ -20,11 +20,11 @@ describe("Prime number generator", function() {
         expect(getPrimes(0)).toEqual([]);
     });
 
-    it("should return an empty array for (52)", function(){
+    it("should return an array containing '2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47' for (52)", function(){
         expect(getPrimes(52)).toEqual([2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47]);
     });
 
-    it("should return an empty array for (15)", function(){
+    it("should return an array '2, 3, 5, 7, 11, 13' for (15)", function(){
         expect(getPrimes(15)).toEqual([2, 3, 5, 7, 11, 13]);
     });
 
@@ -44,7 +44,7 @@ describe("Prime number generator", function() {
         expect(getPrimes(-25)).toEqual('Negative numbers not allowed');
     });
 
-    it("should return 'Negative numbers not allowed' for (-0)", function(){
+    it("should return an empty array for (-0)", function(){
         expect(getPrimes(-0)).toEqual([]);
     });
 
