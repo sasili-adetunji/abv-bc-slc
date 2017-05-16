@@ -5,7 +5,10 @@ Andela Abuja Bootcamp Self Leearning Clinic
 Date: 15 May, 2017.
 
 */
-function getPrimes(n) {
+
+module.exports = {
+
+getPrimes: function (n) {
   let emptyArray = [];
   let a;
   let primeNumbers = [];
@@ -33,5 +36,6 @@ function getPrimes(n) {
   // to check for other input types like strings
   else 
 
-    return "Error : Invalid input";
+    return "Error: Invalid input";
 }
+  }
