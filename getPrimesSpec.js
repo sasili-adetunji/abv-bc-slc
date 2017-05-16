@@ -6,6 +6,9 @@ Date: 15 May, 2017.
 
 */
 
+const expect = require('jasmine-expect');
+const getPrimes = require('getPrimes.js');
+
 describe("Prime number generator", function() {
     it("should return an array containing '2,3,5,7' for (9)", function(){
         expect(getPrimes(9)).toEqual([2,3,5,7]);
